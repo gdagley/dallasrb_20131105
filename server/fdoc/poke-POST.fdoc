@@ -1,0 +1,23 @@
+---
+description: Record pokes
+responseCodes:
+- status: 500
+  successful: false
+  description: Not identified
+- status: 201
+  successful: true
+  description: Poke recorded
+requestParameters:
+  properties:
+    udid:
+      description: Device udid
+      required: true
+      type: string
+      example: '1234'
+responseParameters:
+  properties:
+    pokes:
+      description: Number of pokes for this device
+      required: true
+      type: integer
+      example: 1

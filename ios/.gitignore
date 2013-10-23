@@ -1,0 +1,13 @@
+.repl_history
+.dat*
+build
+resources/*.nib
+resources/*.momd
+resources/*.storyboardc
+resources/interface/*.storyboardc
+ib.xcodeproj
+vendor/Pods/build*
+vendor/Pods/.build*
+vendor/Pods/Pods.xcodeproj
+.rake_tasks~
+.idea
