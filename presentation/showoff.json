@@ -1,6 +1,8 @@
-{ "name": "My Preso",
+{ "name": "Mobile Omakase",
   "sections": [
+    {"section":"intro"},
     {"section":"server"},
-    {"section":"client"}
+    {"section":"client"},
+    {"section":"credits"}
   ]
 }

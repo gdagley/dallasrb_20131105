@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      POST poke - Poker API
+    </title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Users/geoffrey/workspace/dallasrb_20131105/server/doc/styles.css" />
+  </head>
+  <body>
+    <div id="page">
+      <div id="content">
+        <h1>
+          <span class="endpoint-name ">
+  <span class="verb">POST</span>
+  <span class="root">http:&#8203;/&#8203;/poker-api.com&#8203;/</span>
+  <span class="path">poke</span>
+  
+</span>
+
+        </h1>
+
+        <div id="nav">
+          
+          
+            <a href="/Users/geoffrey/workspace/dallasrb_20131105/server/doc/index.html">&#187; Poker API</a>
+          
+        </div>
+
+        <p>Record pokes</p>
+
+
+        
+              <h2 id="request">
+      <a href="#request" class="anchor">
+        Request
+      </a>
+    </h2>
+
+
+              <h3 id="example_request">
+      <a href="#example_request" class="anchor">
+        Example Request
+      </a>
+    </h3>
+
+          <pre><code>{
+  "udid": "1234"
+}</code></pre>
+
+              <h3 id="request_parameters">
+      <a href="#request_parameters" class="anchor">
+        Request Parameters
+      </a>
+    </h3>
+
+          <div class="schema"><ul><li>    <span id="udid-1368303198193928563">
+      <a href="#udid-1368303198193928563" class="anchor">
+        <tt>udid</tt>
+      </a>
+    </span>
+<div class="schema"><p>Device udid</p>
+<ul><li>Required: yes</li><li>Type: string</li><li>Example: <tt>&quot;1234&quot;</tt></li></ul></div></li></ul></div>
+        
+
+            <h2 id="response">
+      <a href="#response" class="anchor">
+        Response
+      </a>
+    </h2>
+
+        
+              <h3 id="example_response">
+      <a href="#example_response" class="anchor">
+        Example Response
+      </a>
+    </h3>
+
+          <pre><code>{
+  "pokes": 1
+}</code></pre>
+
+              <h3 id="response_parameters">
+      <a href="#response_parameters" class="anchor">
+        Response Parameters
+      </a>
+    </h3>
+
+          <div class="schema"><ul><li>    <span id="pokes--4498799778597215848">
+      <a href="#pokes--4498799778597215848" class="anchor">
+        <tt>pokes</tt>
+      </a>
+    </span>
+<div class="schema"><p>Number of pokes for this device</p>
+<ul><li>Required: yes</li><li>Type: integer</li><li>Example: <tt>1</tt></li></ul></div></li></ul></div>
+        
+
+            <h3 id="response_codes">
+      <a href="#response_codes" class="anchor">
+        Response Codes
+      </a>
+    </h3>
+
+        
+              <h4 id="successful_response_codes">
+      <a href="#successful_response_codes" class="anchor">
+        Successful Response Codes
+      </a>
+    </h4>
+
+          <ul>
+            
+            <li>
+                    <div class="response-code">
+        <span class="status">
+          201
+        </span>
+        <p>Poke recorded</p>
+
+      </div>
+
+            </li>
+            
+          </ul>
+        
+
+        
+              <h4 id="failure_response_codes">
+      <a href="#failure_response_codes" class="anchor">
+        Failure Response Codes
+      </a>
+    </h4>
+
+          <ul>
+            
+            <li>
+                    <div class="response-code">
+        <span class="status">
+          500
+        </span>
+        <p>Not identified</p>
+
+      </div>
+
+            </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </body>
+</html>
+
